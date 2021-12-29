@@ -1,0 +1,4 @@
+{
+  <#if body?exists>"body": "${body}",</#if>
+  "name": "${name}"
+}

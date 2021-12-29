@@ -1,0 +1,7 @@
+{
+  <#if body?exists>"body": "${body}",</#if>
+  <#if state?exists>"state": "${state}",</#if>
+  <#if organization_permission?exists>"organization_permission": "${organization_permission}",</#if>
+  <#if private?exists>"private": ${private},</#if>
+  "name": "${name}"
+}

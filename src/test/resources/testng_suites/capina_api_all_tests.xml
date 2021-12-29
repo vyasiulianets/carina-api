@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Carina API Suite">
+    <test name="API" parallel="methods">
+        <packages>
+            <package name="org.vyasiulianets.carinaapi.tests.*"/>
+        </packages>
+    </test>
+</suite>

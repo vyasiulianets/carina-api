@@ -1,0 +1,19 @@
+{
+  <#if description?exists>"description": "${description}",</#if>
+  <#if homepage?exists>"homepage": "${homepage}",</#if>
+  <#if private?exists>"private": "${private}",</#if>
+  <#if visibility?exists>"visibility": "${visibility}",</#if>
+  <#if has_issues?exists>"has_issues": "${has_issues}",</#if>
+  <#if has_projects?exists>"has_projects": "${has_projects}",</#if>
+  <#if has_wiki?exists>"has_wiki": "${has_wiki}",</#if>
+  <#if is_template?exists>"is_template": "${is_template}",</#if>
+  <#if team_id?exists>"team_id": "${team_id}",</#if>
+  <#if auto_init?exists>"auto_init": "${auto_init}",</#if>
+  <#if license_template?exists>"license_template": "${license_template}",</#if>
+  <#if allow_squash_merge?exists>"allow_squash_merge": "${allow_squash_merge}",</#if>
+  <#if allow_merge_commit?exists>"allow_merge_commit": "${allow_merge_commit}",</#if>
+  <#if allow_rebase_merge?exists>"allow_rebase_merge": "${allow_rebase_merge}",</#if>
+  <#if allow_auto_merge?exists>"allow_auto_merge": "${allow_auto_merge}",</#if>
+  <#if delete_branch_on_merge?exists>"delete_branch_on_merge": "${delete_branch_on_merge}",</#if>
+  "name": "${name}"
+}
