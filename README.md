@@ -1,1 +1,1 @@
-# carina-carinaapi.api
+# carina-api
